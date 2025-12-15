@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Mon Dec 15 09:36:55 2025 as: nmap -sn -oX network.xml 10.78.25.0/24 -->
+<nmaprun scanner="nmap" args="nmap -sn -oX network.xml 10.78.25.0/24" start="1765780615" startstr="Mon Dec 15 09:36:55 2025" version="7.94SVN" xmloutputversion="1.05">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.78.25.21" addrtype="ipv4"/>
+<address addr="00:50:56:A0:1B:F5" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<times srtt="473" rttvar="3809" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.78.25.104" addrtype="ipv4"/>
+<address addr="00:50:56:A0:F1:0C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<times srtt="263" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.78.25.152" addrtype="ipv4"/>
+<address addr="00:50:56:95:0A:AD" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<times srtt="442" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.78.25.159" addrtype="ipv4"/>
+<address addr="00:50:56:A0:FA:A6" addrtype="mac" vendor="VMware"/>
+<hostnames>
+<hostname name="prd-ops-jag303.tech.petcorp.ru" type="PTR"/>
+</hostnames>
+<times srtt="338" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.78.25.163" addrtype="ipv4"/>
+<address addr="3C:7C:3F:26:38:0E" addrtype="mac" vendor="ASUSTek Computer"/>
+<hostnames>
+</hostnames>
+<times srtt="106" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.78.25.167" addrtype="ipv4"/>
+<address addr="A8:A1:59:5A:0A:0D" addrtype="mac" vendor="ASRock Incorporation"/>
+<hostnames>
+</hostnames>
+<times srtt="219" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.78.25.172" addrtype="ipv4"/>
+<address addr="00:50:56:A0:29:A3" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<times srtt="301" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.78.25.197" addrtype="ipv4"/>
+<address addr="00:50:56:A0:DC:77" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<times srtt="374" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.78.25.222" addrtype="ipv4"/>
+<address addr="00:50:56:A0:BE:5D" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<times srtt="398" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.78.25.252" addrtype="ipv4"/>
+<address addr="C4:AD:34:A4:10:97" addrtype="mac" vendor="Routerboard.com"/>
+<hostnames>
+<hostname name="gtw-vis002.vlan.noc.ipsh.io" type="PTR"/>
+</hostnames>
+<times srtt="300" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.78.25.253" addrtype="ipv4"/>
+<address addr="C4:AD:34:9F:D6:45" addrtype="mac" vendor="Routerboard.com"/>
+<hostnames>
+<hostname name="gtw-vis001.vlan.noc.ipsh.io" type="PTR"/>
+</hostnames>
+<times srtt="143" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.78.25.254" addrtype="ipv4"/>
+<address addr="00:00:5E:00:01:19" addrtype="mac" vendor="Icann, Iana Department"/>
+<hostnames>
+<hostname name="vis.vrrp.noc.ipsh.io" type="PTR"/>
+</hostnames>
+<times srtt="249" rttvar="2195" to="100000"/>
+</host>
+<host><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="10.78.25.148" addrtype="ipv4"/>
+<hostnames>
+<hostname name="it-is-me-pc" type="PTR"/>
+</hostnames>
+</host>
+<runstats><finished time="1765780617" timestr="Mon Dec 15 09:36:57 2025" summary="Nmap done at Mon Dec 15 09:36:57 2025; 256 IP addresses (13 hosts up) scanned in 1.97 seconds" elapsed="1.97" exit="success"/><hosts up="13" down="243" total="256"/>
+</runstats>
+</nmaprun>
